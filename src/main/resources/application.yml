@@ -1,0 +1,14 @@
+spring:
+    datasource:
+        url: ${mysql.url}
+        username: root
+        password: root
+        driver-class-name: ${mysql.driver}
+    jpa:
+        hibernate:
+            ddl-auto: none
+        show-sql: true
+        properties:
+            hibernate:
+                format_sql: true
+                dialect: org.hibernate.dialect.MySQL57InnoDBDialect
