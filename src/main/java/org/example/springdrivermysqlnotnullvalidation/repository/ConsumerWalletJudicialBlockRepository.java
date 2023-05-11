@@ -1,0 +1,11 @@
+package org.example.springdrivermysqlnotnullvalidation.repository;
+
+import org.example.springdrivermysqlnotnullvalidation.model.ConsumerWalletJudicialBlockDocument;
+import org.example.springdrivermysqlnotnullvalidation.model.ConsumerWalletJudicialBlockIdDocument;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ConsumerWalletJudicialBlockRepository extends JpaRepository<ConsumerWalletJudicialBlockDocument, ConsumerWalletJudicialBlockIdDocument> {
+
+}
