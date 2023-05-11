@@ -1,8 +1,8 @@
 spring:
     datasource:
         url: ${mysql.url}
-        username: root
-        password: root
+        username: ${PICPAY_BANKING_WALLET_DB_LOGIN:root}
+        password: ${PICPAY_BANKING_WALLET_DB_PASSWORD:root}
         driver-class-name: ${mysql.driver}
     jpa:
         hibernate:
