@@ -48,4 +48,17 @@ public class ConsumerWalletJudicialBlockDocument {
         this.updateAt = LocalDateTime.now();
     }
 
+    @Override
+    public String toString() {
+        return "ConsumerWalletJudicialBlockDocument{" +
+            "id=" + id +
+            ", consumerId=" + consumerId +
+            ", amount=" + amount +
+            ", activated=" + activated +
+            ", createAt=" + createAt +
+            ", updateAt=" + updateAt +
+            ", remainingAmount=" + remainingAmount +
+            '}';
+    }
+
 }
